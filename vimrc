@@ -366,8 +366,16 @@ imap <S-Down> <Esc>vkh
 imap <S-Right> <Esc>lvl
 imap <S-Left> <Esc>vh
 
+imap <S-Home> <Esc>v^
+imap <S-End> <Esc>v$
+
+imap <S-M-Right> <Esc>lvw
+imap <S-M-Left> <Esc>vb 
+
 vmap <S-Up> k
 vmap <S-Down> j
 vmap <S-Left> h
 vmap <S-Right> l
 
+" Use the darkspectrum color scheme
+colorscheme darkspectrum
