@@ -358,3 +358,16 @@ vmap <C-C> "+y
 " remove trailing whitespace and pesky ^M
 "autocmd BufEnter * :%s/[ \t\r]\+$//e
 autocmd BufWritePre * :%s/[ \t\r]\+$//e
+
+
+" Make shift in visual block & insert modes more like a normal text editor
+imap <S-Up> <Esc>vkl
+imap <S-Down> <Esc>vkh
+imap <S-Right> <Esc>lvl
+imap <S-Left> <Esc>vh
+
+vmap <S-Up> k
+vmap <S-Down> j
+vmap <S-Left> h
+vmap <S-Right> l
+
