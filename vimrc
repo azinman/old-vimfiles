@@ -379,3 +379,9 @@ vmap <S-Right> l
 
 " Use the darkspectrum color scheme
 colorscheme darkspectrum
+
+set ignorecase          " case-insensitive search
+set smartcase           " upper-case sensitive search
+
+set textwidth=100
+highlight ColorColumn ctermbg=#444444 guibg=#444444
