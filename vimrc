@@ -17,6 +17,9 @@ set hlsearch    "hilight searches by default
 set nowrap      "dont wrap lines
 set linebreak   "wrap lines at convenient points
 
+" fuck those swp files
+set backupdir=/tmp
+
 "statusline setup
 set statusline=%f       "tail of the filename
 
@@ -412,4 +415,3 @@ map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
-
