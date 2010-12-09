@@ -415,3 +415,13 @@ map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
+
+map <M-C-j> <C-w>r
+map <M-C-k> <C-w>R
+map <M-C-h> <C-w>R
+map <M-C-l> <C-w>r
+
+map <S-C-j> <C-w>r
+map <S-C-k> <C-w>R
+map <S-C-h> <C-w>R
+map <S-C-l> <C-w>r
